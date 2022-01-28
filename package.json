@@ -1,0 +1,24 @@
+{
+  "name": "qr-code-frontendmentor",
+  "description": "A little Qr-code to redirect on Frontend Mentor website",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alexandre-st/Qr-code-FrontendMentor"
+  },
+  "author": "Alexandre-st",
+  "license": "ISC",
+  "keywords": [
+    "PARCEL",
+    "QrCode.js"
+  ],
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  },
+  "dependencies": {}
+}

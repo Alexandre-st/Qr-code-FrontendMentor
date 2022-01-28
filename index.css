@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+.main {
+  background: #d5e1ef;
+  text-align: center;
+  height: 100vh;
+}
+
+#qr_code {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2c7dfa;
+  padding: 64px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+img {
+  z-index: 1;
+}
+
+.top-circle {
+  background-color: #3685ff;
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+  bottom: 124.5px;
+  right: 91.5px;
+}
+
+.bottom-circle {
+  background-color: #3685ff;
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+  top: 204.5px;
+  left: 131.5px;
+}
+
+.container {
+  max-width: 320px;
+  padding: 85px 27px 85px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.content {
+  background: #fff;
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+}
+
+.text {
+  margin-top: 24px;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #1f314f;
+}
+
+p {
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 0.1875px;
+  color: #7d889e;
+  margin: 16px 16px 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 152px 0;
+  }
+}
