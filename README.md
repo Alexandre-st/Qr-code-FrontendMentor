@@ -6,7 +6,7 @@ FrontEnd Mentor Challenge
 
 ## Screenshot
 
-![](./Qr-code.png)
+![](./qr_code.png)
 
 ## Available scripts
 
